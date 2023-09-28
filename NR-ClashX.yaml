@@ -1,0 +1,50 @@
+# NAME: Public SUFFIX
+# AUTHOR: Phile
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-09-28 23:22:39
+# DOMAIN: 53
+# DOMAIN-SUFFIX: 61
+# IP-CIDR: 8
+# PROCESS-NAME: 6
+# TOTAL: 128
+payload:
+  #NR app
+  - DOMAIN-SUFFIX,goodnovel.com
+  - DOMAIN-SUFFIX,buenovela.com
+  - DOMAIN-SUFFIX,goodfm.com
+  - DOMAIN-SUFFIX,goodreels.com
+  - DOMAIN-SUFFIX,tapfic.com
+  - DOMAIN-SUFFIX,filinovel.com
+  - DOMAIN-SUFFIX,meganovel.com
+
+  #NR cms
+  - DOMAIN-SUFFIX,activitycms.com
+  #NR test
+  - DOMAIN-SUFFIX,xssky.com
+  #ali dingtalk
+  - DOMAIN-SUFFIX,dingtalk.com
+  - DOMAIN-SUFFIX,dingtalkapps.com
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,mxhichina.com
+  - DOMAIN-SUFFIX,mmstat.com
+  - DOMAIN-SUFFIX,cnzz.com
+  - DOMAIN-SUFFIX,aliapp.org
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,alibabausercontent.com
+  - DOMAIN-SUFFIX,mobgslb.tbcache.com
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipayobjects.com
+  - DOMAIN-SUFFIX,aliyun-inc.com
+  - DOMAIN-SUFFIX,aliimg.com # 图标图片
+  - DOMAIN-SUFFIX,tbcdn.cn
+  - DOMAIN-SUFFIX,effirst.com
+  - DOMAIN-SUFFIX,teambition.com # 项目管理
+  - DOMAIN-SUFFIX,teambition.net # 项目管理
+  - DOMAIN-SUFFIX,aliwork.com
+  - DOMAIN-SUFFIX,aliyunpds.com # 文档新预览
+  - DOMAIN-SUFFIX,alimebot.com    # 智能客服
+  - DOMAIN-SUFFIX,ztna-dingtalk.com # 企业应用网关
+  - DOMAIN-SUFFIX,dingtalk.cn # 钉钉客联等
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,alibaba.com    # 邮箱
